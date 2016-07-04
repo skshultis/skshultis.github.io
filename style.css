@@ -10,6 +10,8 @@ html {
   background-size: cover;
   font-family: 'Tinos', serif;
 }
+/* You could have simply referred to the p selector
+since it's the only one you have*/
 #name >p {
   font-size: 65px;
   font-weight: bold;
