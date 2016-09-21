@@ -1,26 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <link href='https://fonts.googleapis.com/css?family=Tinos' rel='stylesheet' type='text/css'>
+  <!-- <meta charset="UTF-8"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sarah K Shultis</title>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.js"></script>
+  <script src="https://use.fontawesome.com/8c729369f0.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
 </head>
 <body>
-  <header>
-  </header>
 
-  <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="gallery.html">Art</a></li>
-  <li><a href="portfolio.html">Portfolio</a></li>
-  <li><a href="about.html">About</a></li>
+  <ul id="myMenu">
+    <li data-menuanchor="welcome" class="active"><a href="#welcome">Sarah K</a></li>
+    <li data-menuanchor="about"><a href="#about">About</a></li>
+    <li data-menuanchor="projects"><a href="#projects">Projects</a></li>
+    <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
   </ul>
 
-  <div id="name">
-    <p>Sarah K Shultis</p>
-  </div>
+  <div id="fullpage">
+    <div class="section" data-menuanchor="welcome" id="seaSection">
+      <div id="wrapper">
+        <h1>Hi. I'm Sarah.</h1>
+        <h5>A Web developer, an economist, and data lover.</h5>
+      </div>
+    </div>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <div class="section" data-menuanchor="about">
+      <h1>About me:</h1>
+      <div id="aboutBody">
+        <div id="columnContainer">
+          <p id="column1"></p>
+          <p id="column2"></p>
+        </div>
+      </div>
+      <h5 id="clearColumns"><a href="#contact">Want to get in touch?</a></h5>
+    </div>
+
+    <div class="section" data-menuanchor="projects">
+      <div class="slide" data-anchor="intro">
+        <div id="wrapper">
+          <h1>Recent Projects:</h1>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="slide" data-anchor="LRN-Quiz">
+        <div id="wrapper">
+          <h3>KardashBash</h3>
+          <img class="laptop" src="http://i.imgur.com/eXN3ktI.png" alt="Kardashian App">
+          <p class="projectBody">For this ruby on rails project, I created an entertainment app around the public's need to voice its frustration and disgust with the Kardashian family and their growing entourage. Don't take it too seriously.</p>
+          <p class="projectBody"><span id="slate"><a href="https://kardash-bash.herokuapp.com/"> Launch the app </a></p>
+        </div>
+      </div>
+
+      <div class="slide" data-anchor="ComingSoon">
+        <div id="wrapper">
+          <h3>There's more to come!</h3>
+          <p class="centered">I'm always generating new ideas and refactoring current projects. Check back soon for my latest work.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" data-menuanchor="contact">
+      <div id="wrapper">
+      <h1>Find me:</h1>
+      <p></p>
+        <div class="contactIcons">
+          <a href="mailto:shultis.sk@gmail.com?subject= what's new?">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-envelope-o fa-stack-1x"></i>
+            </span>
+          </a>
+          <a href="https://www.linkedin.com/in/sarahkshultis">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-linkedin fa-stack-1x"></i>
+            </span>
+          </a>
+          <a href="https://github.com/skshultis">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-github fa-stack-1x"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
