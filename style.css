@@ -1,0 +1,168 @@
+/*font-family: 'Pavanam', sans-serif;*/
+/*font-family: 'Quattrocento', serif;*/
+
+
+.section {
+  font-size: 3em;
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  color: white;
+  background-size: cover;
+}
+#home {
+  background-image: url(http://i.imgur.com/qFR03mH.jpg);
+}
+#greentea {
+  background-image: url(http://i.imgur.com/WtWt7Og.jpg);
+}
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+#highlight {
+  color: rgb(56, 81, 98);
+}
+#icongroup {
+  position: absolute;
+  bottom: 10px;
+  width: 95%;
+  margin: 0 auto;
+}
+#altFaves {
+  display: none;
+}
+h5 {
+  font-size: .7em;
+  letter-spacing: .15em;
+}
+#vis75 {
+  opacity: .75;
+}
+#vis50 {
+  opacity: .5;
+}
+#vis25 {
+  opacity: .2;
+}
+#myMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: rgb(1, 23, 47); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient( rgb(1, 23, 47), rgba(210, 76, 1, 0) ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( rgb(1, 23, 47), rgba(210, 76, 1, 0) ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( rgb(1, 23, 47), rgba(210, 76, 1, 0) ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( rgb(1, 23, 47), rgba(210, 76, 1, 0) ); /* Standard syntax */*/
+}
+ul {
+  font-family: 'Quattrocento', serif;
+  letter-spacing: .2em;
+  list-style: none;
+  display: block;
+  text-decoration: none;
+}
+#myMenu li {
+  display: inline-block;
+  margin: 10px;
+  padding: 0 0 0 10px;
+}
+#myMenu a {
+  text-decoration: none;
+  color: white;
+}
+#myMenu li.active a {
+  color: white;
+  font-style: italic;
+}
+p {
+  font-family: 'Pavanam', sans-serif;
+  font-size: .4em;
+  line-height: 1.5em;
+  letter-spacing: .08em;
+}
+#sky {
+  color: rgb(40, 219, 255);
+}
+#orange {
+  color: rgb(207, 64, 26);
+}
+#slate, #slate a {
+  color: rgb(42, 42, 42);
+  text-decoration: none;
+}
+#yellow, #yellow a {
+  color: rgb(255, 236, 112);
+  text-decoration: none;
+}
+#aboutBody {
+  text-align: left;
+  clear: left;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+}
+#columnContainer {
+  float: left;
+  width: 100%;
+  position: relative;
+  right: 50%;
+  border-right: 3px solid rgb(40, 219, 255);
+}
+#column1 {
+  float: left;
+  width: 46%;
+  position: relative;
+  left: 52%;
+  overflow: hidden;
+}
+#column2 {
+  float: left;
+  width: 46%;
+  position: relative;
+  left: 56%;
+  overflow: hidden;
+}
+#clearColumns a {
+  clear: both;
+  float: left;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  letter-spacing: .1em;
+  font-size: 1.5em;
+  margin: 40px 0 0 0;
+}
+.contactIcons a {
+  transition: color 0.25s ease;
+  text-decoration: none;
+  color: white;
+}
+.contactIcons a:hover {
+  color: rgb(55, 74, 103);
+}
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+  margin: 0 20px;
+}
+.fa-2x {
+  font-size: 1em;
+}
+.laptop {
+  width: 40%;
+  float: left;
+  margin: 0px 40px 20px 0px;
+}
+.projectBody {
+  text-align: left;
+  font-size: .42em;
+}
