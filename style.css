@@ -35,15 +35,6 @@ h5 {
   font-size: .7em;
   letter-spacing: .15em;
 }
-#vis75 {
-  opacity: .75;
-}
-#vis50 {
-  opacity: .5;
-}
-#vis25 {
-  opacity: .2;
-}
 #myMenu {
   position: fixed;
   top: 0;
@@ -54,10 +45,10 @@ h5 {
   padding: 0;
   margin: 0;
   background: rgb(1, 23, 47); /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient( rgb(1, 23, 47), rgba(210, 76, 1, 0) ); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient( rgb(1, 23, 47), rgba(210, 76, 1, 0) ); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient( rgb(1, 23, 47), rgba(210, 76, 1, 0) ); /* For Firefox 3.6 to 15 */
-  background: linear-gradient( rgb(1, 23, 47), rgba(210, 76, 1, 0) ); /* Standard syntax */*/
+  background: -webkit-linear-gradient( rgb(1, 23, 47), rgba(30, 0, 45, 0) ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient( rgb(1, 23, 47), rgba(30, 0, 45, 0) ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient( rgb(1, 23, 47), rgba(30, 0, 45, 0) ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient( rgb(1, 23, 47), rgba(30, 0, 45, 0) ); /* Standard syntax */*/
 }
 ul {
   font-family: 'Quattrocento', serif;
@@ -85,18 +76,9 @@ p {
   line-height: 1.5em;
   letter-spacing: .08em;
 }
-#sky {
-  color: rgb(40, 219, 255);
-}
-#orange {
-  color: rgb(207, 64, 26);
-}
-#slate, #slate a {
-  color: rgb(42, 42, 42);
-  text-decoration: none;
-}
-#yellow, #yellow a {
-  color: rgb(255, 236, 112);
+#launch, #launch a {
+  color: rgb(30, 0, 45);
+  font-weight: bold;
   text-decoration: none;
 }
 #aboutBody {
@@ -134,7 +116,7 @@ p {
   text-decoration: none;
   color: white;
   letter-spacing: .1em;
-  font-size: 1.5em;
+  font-size: 1em;
   margin: 40px 0 0 0;
 }
 .contactIcons a {
@@ -164,5 +146,5 @@ p {
 }
 .projectBody {
   text-align: left;
-  font-size: .42em;
+  font-size: .4em;
 }
