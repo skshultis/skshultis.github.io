@@ -82,11 +82,15 @@ p {
   text-decoration: none;
 }
 #aboutBody {
-  text-align: left;
+  text-align: center;
   clear: left;
   float: left;
   width: 100%;
   overflow: hidden;
+}
+.sarah {
+  padding-right: 100px;
+  padding-left: 50px;
 }
 #columnContainer {
   float: left;
@@ -117,7 +121,10 @@ p {
   color: white;
   letter-spacing: .1em;
   font-size: 1em;
-  margin: 40px 0 0 0;
+  margin: 10px 0 0 0;
+}
+#clearColumns a:hover {
+  font-style: italic;
 }
 .contactIcons a {
   transition: color 0.25s ease;

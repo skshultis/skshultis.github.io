@@ -4,7 +4,7 @@ $(document).ready(function() {
     //Navigation
     menu: '#myMenu',
     lockAnchors: false,
-    anchors:['welcome', 'about', 'projects', 'contact'],
+    anchors:['main', 'about', 'projects', 'contactme'],
     navigation: false,
     navigationPosition: 'right',
     navigationTooltips: ['introSlide', 'dcCrimeMapper', 'KardashBash', 'more'],
